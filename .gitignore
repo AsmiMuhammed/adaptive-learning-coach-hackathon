@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/adaptiq.db
+
+# Frontend / Node
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
